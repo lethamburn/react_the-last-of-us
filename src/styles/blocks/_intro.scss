@@ -1,0 +1,22 @@
+.intro {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5vh;
+  align-items: center;
+  background-image: url("../../../public/assets/backgrounds/intro.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+
+  img{
+    height: 67vh;
+    filter: invert(100%);
+  }
+
+  p {
+    text-transform: uppercase;
+    width: 50%;
+    text-align: center;
+  }
+}
