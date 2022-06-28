@@ -5,13 +5,15 @@
   justify-content: center;
   gap: 5vh;
   align-items: center;
-  background-image: url("../../../public/assets/backgrounds/intro.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("../../../public/assets/backgrounds/intro.jpg");
   background-size: cover;
   background-blend-mode: darken;
+  scroll-snap-align: start;
 
   img{
     height: 67vh;
     filter: invert(100%);
+    opacity: 80%;
   }
 
   p {

@@ -1,0 +1,18 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5vh;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40));
+    background-size: cover;
+    background-blend-mode: darken;
+    scroll-snap-align: start;
+
+    p {
+        text-transform: uppercase;
+        width: 50%;
+        text-align: center;
+      }
+}

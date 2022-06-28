@@ -1,0 +1,25 @@
+.top_nav {
+  ul {
+    margin-top: 20px;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    gap: 50vw;
+    align-items: center;
+
+    li {
+      img {
+        opacity: 70%;
+        height: 8vh;
+        transition: all 0.3s;
+        cursor: pointer;
+        &:hover {
+          opacity: 100%;
+        }
+      }
+      h3 {
+        text-transform: uppercase;
+      }
+    }
+  }
+}
