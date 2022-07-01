@@ -6,7 +6,9 @@ const BottomNavigator = () => {
       <nav>
         <ul>
           <li>
+          <a href="#home">
             <h3>Home</h3>
+            </a>
           </li>
           <li>
             <h3>Story</h3>

@@ -2,10 +2,10 @@ import React from "react";
 import videoBg from "./videos/intro.mp4";
 const Intro = () => {
   return (
-    <section className="intro" >
+    <section className="intro" id="home">
           <video src={videoBg} autoPlay loop muted />
       <h1>
-        <img src="./assets/logos/main_logo.png" alt="The Last of Us logo" />
+        <img src="./assets/logos/part2.webp" alt="The Last of Us: Part II logo" />
       </h1>
       <p>Personal Non-Comercial project created by Antonio Rosales</p>
       <p>
