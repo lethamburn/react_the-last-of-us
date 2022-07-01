@@ -1,0 +1,24 @@
+.bottom_navigator{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    ul{
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        padding: 0px 40px;
+
+        img{
+            width: 30px;
+            height: 30px;
+            filter: invert(100%);
+        }
+
+        li{
+            text-transform: uppercase;
+        }
+    }
+}
