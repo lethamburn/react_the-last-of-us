@@ -1,13 +1,10 @@
 import React from "react";
 import TopNavigator from "../components/TopNavigator";
-import VideoBg from "reactjs-videobg";
-import mp4 from "./videos/hero.mp4";
+import videoBg from "./videos/hero.mp4";
 const Hero = () => {
   return (
     <section className="hero">
-      <VideoBg autoPlay muted loop>
-        <VideoBg.Source src={mp4} type="video/mp4" />
-      </VideoBg>
+      <video src={videoBg} autoPlay loop muted />
       <TopNavigator />
       <h5>Experience</h5>
       <p>

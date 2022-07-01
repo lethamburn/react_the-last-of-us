@@ -1,8 +1,9 @@
 import React from "react";
-
+import videoBg from "./videos/intro.mp4";
 const Intro = () => {
   return (
     <section className="intro" >
+          <video src={videoBg} autoPlay loop muted />
       <h1>
         <img src="./assets/logos/main_logo.png" alt="The Last of Us logo" />
       </h1>
