@@ -4,6 +4,20 @@
     justify-content: space-between;
     width: 100%;
 
+    h3{
+        align-self: flex-start;
+        padding-left: 40px;
+        text-transform: uppercase;
+        font-weight: 300;
+        opacity: 80%;
+        cursor: pointer;
+        transition: all 0.3s;
+  
+        &:hover{
+          opacity: 100%;
+        }
+      }
+
     ul{
         height: 10vh;
         display: flex;

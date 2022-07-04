@@ -1,16 +1,39 @@
 import React from "react";
 import BottomNavigator from "../components/BottomNavigator";
-import TopNavigator from "../components/TopNavigator";
-import videoBg from "./videos/hero.mp4";
+import videoBg from "./videos/story.mp4";
 const Story = () => {
   return (
     <section className="story" id="story">
       <video src={videoBg} autoPlay loop muted />
-      <TopNavigator />
-    
-    <img src="./assets/logos/part2.webp" alt="The Last of Us Part II logo" className="hero__logo"/>
-      <p>After the events of the first game, Joel Miller (Troy Baker) confesses to his brother Tommy (Jeffrey Pierce) his responsibility in preventing the Fireflies attempting to find a cure for the Cordyceps fungus pandemic by saving Ellie (Ashley Johnson) from an operation that would have killed her. Four years later, Joel and Ellie have built a life in Jackson, Wyoming, though their relationship has become strained. While on patrol, Joel and Tommy rescue a stranger, Abby Anderson (Laura Bailey), from an Infected horde. They return to an outpost run by Abby's group, former Fireflies now part of the Washington Liberation Front (WLF), a militia group based in Seattle, Washington.</p>
-      <h3>Official trailer ►</h3>
+
+      <h2>STORY</h2>
+      <div className="story__container">
+        <span>
+          <p>
+            The Last of Us Part II takes place five years after the events of
+            the first game and nearly 25 years after the outbreak of the
+            Cordyceps brain infection began. Ellie, who is now 19 years old,
+            returns as the protagonist whom players assume control of. Joel, in
+            his mid-fifties, also returns as a playable character, as does Abby
+            Anderson, who functions as the game's dual protagonist.{" "}
+          </p>
+          <p>
+            Joel and Ellie, having settled down in Tommy's settlement, live in
+            relative peace within the thriving community. While there, Ellie has
+            even managed to form friendships with Dina and Jesse. However, the
+            survivors face constant threats from infected and other hostile
+            survivors.
+          </p>
+          <p>
+            When a tragic event disrupts the tranquility of her life, a hate
+            filled Ellie embarks on a journey to Seattle in a search for
+            vengeance to carry out justice. As she hunts down those responsible
+            one by one, she is confronted with the traumatizing physical and
+            emotional consequences of her actions.
+          </p>
+        </span>
+        <img src="./assets/images/poster.jpg" alt="The Last of Us Part II poster" />
+      </div>
       <BottomNavigator />
     </section>
   );
