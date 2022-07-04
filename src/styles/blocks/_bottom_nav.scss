@@ -21,4 +21,16 @@
             text-transform: uppercase;
         }
     }
+
+    &__social{
+        img{
+            opacity: 80%;
+            transition: all 0.3s;
+            cursor: pointer;
+
+            &:hover{
+                opacity: 100%;
+            }
+        }
+    }
 }

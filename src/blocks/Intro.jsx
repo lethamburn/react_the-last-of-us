@@ -1,8 +1,9 @@
 import React from "react";
+import ScrollDown from "../components/ScrollDown";
 import videoBg from "./videos/intro.mp4";
 const Intro = () => {
   return (
-    <section className="intro" id="home">
+    <section className="intro">
           <video src={videoBg} autoPlay loop muted />
       <h1>
         <img src="./assets/logos/part2.webp" alt="The Last of Us: Part II logo" />
@@ -13,6 +14,7 @@ const Intro = () => {
         horror and third-person stealth action, explore the story and watch the
         characters in this ruined world.
       </p>
+      <ScrollDown />
     </section>
   );
 };

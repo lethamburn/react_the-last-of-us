@@ -11,7 +11,9 @@ const BottomNavigator = () => {
             </a>
           </li>
           <li>
+          <a href="#story">
             <h3>Story</h3>
+            </a>
           </li>
           <li>
             <h3>Characters</h3>
@@ -21,7 +23,7 @@ const BottomNavigator = () => {
           </li>
         </ul>
       </nav>
-      <nav>
+      <nav className="bottom_navigator__social">
         <ul>
             <li>
                 <img src="./assets/logos/twitter.png" alt="Twitter logo" />

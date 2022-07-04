@@ -2,9 +2,9 @@ import React from "react";
 import BottomNavigator from "../components/BottomNavigator";
 import TopNavigator from "../components/TopNavigator";
 import videoBg from "./videos/hero.mp4";
-const Hero = () => {
+const Story = () => {
   return (
-    <section className="hero" id="home">
+    <section className="story" id="story">
       <video src={videoBg} autoPlay loop muted />
       <TopNavigator />
     
@@ -16,4 +16,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Story;
