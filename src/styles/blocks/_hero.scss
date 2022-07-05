@@ -10,6 +10,20 @@
     background-blend-mode: darken;
     scroll-snap-align: start;
 
+   a{
+      align-self: flex-start;
+      padding-left: 40px;
+      text-transform: uppercase;
+      font-weight: 300;
+      opacity: 80%;
+      cursor: pointer;
+      transition: all 0.3s;
+
+      &:hover{
+        opacity: 100%;
+      }
+    }
+
     p {
       align-self: flex-start;
       padding-left: 40px;
@@ -33,18 +47,6 @@
         opacity: 80%;
       }
 
-      h3{
-        align-self: flex-start;
-        padding-left: 40px;
-        text-transform: uppercase;
-        font-weight: 300;
-        opacity: 80%;
-        cursor: pointer;
-        transition: all 0.3s;
-
-        &:hover{
-          opacity: 100%;
-        }
-      }
+      
       
 }
